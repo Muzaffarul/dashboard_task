@@ -3,7 +3,7 @@ import InputBox from "../../form/InputBox";
 import flag1 from "../../../../src/assets/Flag.svg";
 import flag2 from "../../../../src/assets/Flag (1).svg";
 
-export default function Form() {
+export default function Form({no=false}) {
     return (
         <div className="pagination-mian-table">
             <div className="">
@@ -12,7 +12,7 @@ export default function Form() {
                     Sed tortor, sed velit ridiculus ipsum pharetra lacus odio gravida augue enim.
                 </p>
             </div>
-            <div className="language-frame">
+        {!no &&  <div className="language-frame">
                 <div className="lug-box">
                     <img src={flag1} alt="flag"/>{" "}
                     <p className="m-0 fs-12 black-262 text-start fw-normal">English</p>
@@ -21,7 +21,8 @@ export default function Form() {
                     <img src={flag2} alt="flag"/>{" "}
                     <p className="m-0 fs-12 black-262 text-start fw-normal">Turkish</p>
                 </div>
-            </div>
+            </div> }
+           
             <InputBox
                 value=""
                 type="text"

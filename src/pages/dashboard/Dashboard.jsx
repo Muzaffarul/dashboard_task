@@ -261,7 +261,7 @@ export default function Dashboard() {
           <Form />
           <div className="last-section">
             <div className="form-table-frame">
-              <Form />
+              <Form no={true}/>
             </div>
             <div className="simple-form">
               <h3 className="m-0 fs-22 black-262 fw-bold">Form title</h3>
