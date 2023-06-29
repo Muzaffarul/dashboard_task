@@ -1,0 +1,44 @@
+@import "../../util/fontSize/FoontSize.scss";
+
+.main-login-wrapper{
+    background:#F5F5F5;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 600px;
+}
+
+.login-frame{
+    width: dm(900);
+    height: dm(564);
+    background-color: #fff;
+}
+.form-frame{
+    padding: dm(40);
+}
+.loign-head{
+    margin-bottom: dm(40);
+}
+.input-fields-frame{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:dm(20);
+}
+.hr-line-or {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: dm(40) 0 dm(12) 0;
+    height: dm(28);
+    .line{
+        width: 100%;
+        height: dm(1);
+        background: #E5E5E5;
+    }
+    .or{
+        padding:0 dm(17);
+    }
+}

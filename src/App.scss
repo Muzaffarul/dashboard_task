@@ -1,0 +1,65 @@
+@import url( 'https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import '/src/util/fontSize/FoontSize.scss';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+// ==================== COMMON CSS START =================================
+.black-262 {
+    color: #262626;
+}
+.black-525 {
+    color: #525252;
+}
+.black-A3A {
+    color: #A3A3A3;
+}
+.chok-7F1{
+    color: #7F1D1D;
+}
+.primary-btn,
+.secondary-btn {
+    border-radius: dm(5);
+    background-color: #2563EB;
+    padding: dm(10) dm(15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+}
+.secondary-btn {
+    background-color: white;
+    color: black;
+    border: dm(1) solid #525252;
+}
+.add-item {
+    width: dm(200);
+    padding: dm(10);
+    border-radius: dm(5);
+    background: var(--neutral-200, #E5E5E5);
+    margin: dm(15) auto;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    cursor: pointer;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    gap: dm(6);
+    img {
+        width: dm(24);
+        height: dm(24);
+    }
+}
+.pointer {
+    cursor: pointer;
+}
+// ==================== COMMON CSS END =================================

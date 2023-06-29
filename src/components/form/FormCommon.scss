@@ -1,0 +1,45 @@
+@import '../../util/fontSize/FoontSize.scss';
+.input-box-frame {
+    display: flex;
+    flex-direction: column;
+    p {
+        margin-bottom: dm(6);
+    }
+}
+
+.input-box,.text-area {
+    border-radius: dm(5);
+    border: dm(1) solid #D4D4D4;
+    background: #FFF;
+    outline: none;
+    padding: dm(10) dm(15);
+
+}
+.dripDown-frame {
+    width: 100%;
+    .dropdown {
+        width: 100%;
+        .dropdown-toggle {
+            border-radius: dm(5);
+            border: dm(1) solid #D4D4D4;
+            background: #FFF;
+            outline: none;
+            padding: dm(10) dm(15);
+            color: #262626;
+            font-size: fs(15);
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+        
+        }
+    }
+}
+.text-area{
+    width: 100%;
+    height: dm(165);
+}
+.mb-6vw{
+    margin-bottom: dm(.6);
+}
