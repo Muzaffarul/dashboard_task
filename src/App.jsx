@@ -9,7 +9,11 @@ function App() {
   const [count, setCount] = useState(0)
   const router = createBrowserRouter([
     {
-      path: "/",
+      path: "/dashboard_task",
+      element: <Login />,
+    },
+    {
+      path: "/login",
       element: <Login />,
     },
     {
