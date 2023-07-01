@@ -10,7 +10,7 @@ function App() {
   const router = createBrowserRouter([
     {
       path: "/dashboard_task",
-      element: <Login />,
+      element: <Dashboard />,
     },
     {
       path: "/login",
